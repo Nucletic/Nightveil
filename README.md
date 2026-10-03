@@ -257,17 +257,6 @@ npm run compile
 npm run build
 ```
 
-## Roadmap
-
-Potential improvements include:
-
-- [ ] More video detection edge cases
-- [ ] Smoother overlay transitions
-- [ ] More overlay customization options
-- [ ] Additional keyboard shortcuts
-- [ ] More granular per-site controls
-- [ ] Improved compatibility with complex video players
-
 ## License
 
 Nightveil is open source and available under the **MIT License**.
