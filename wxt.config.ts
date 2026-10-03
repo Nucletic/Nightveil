@@ -7,14 +7,13 @@ export default defineConfig({
   description: "A lightweight screen-dimming overlay for a more comfortable browsing experience in low light.",
   version: "1.0.0",
   manifest_version: 3,
-    icons: {
-      16: '/icon-16.png',
-      24: '/icon-24.png',
-      48: '/icon-48.png',
-      96: '/icon-96.png',
-      128: '/icon-128.png',
-    },
-    permissions:["storage"],
+  icons: {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  permissions:["storage"],
     commands: {
       "ToggleLights": {
         suggested_key: {
